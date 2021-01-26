@@ -12,7 +12,7 @@ id: application_job_form
 title: 'Application job form'
 description: ''
 category: ''
-elements: "fullname:\n  '#type': textfield\n  '#title': Fullname\n  '#required': true\ntelephone:\n  '#type': tel\n  '#title': Telephone\n  '#required': true\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\nbiography:\n  '#type': textarea\n  '#title': Biography\n  '#required': true\naddress:\n  '#type': textfield\n  '#title': Address\n  '#required': true\ncv:\n  '#type': webform_document_file\n  '#title': cv\n  '#required': true\nlinkedin:\n  '#type': url\n  '#title': Linkedin\n  '#required': true\ncover_letter:\n  '#type': webform_document_file\n  '#title': 'cover letter'\n  '#required': true"
+elements: "personal_information:\n  '#type': webform_wizard_page\n  '#title': 'Personal Information'\n  fullname:\n    '#type': textfield\n    '#title': Fullname\n    '#required': true\n  address:\n    '#type': textfield\n    '#title': Address\n    '#required': true\n  telephone:\n    '#type': tel\n    '#title': Telephone\n    '#required': true\n  email:\n    '#type': email\n    '#title': Email\n    '#required': true\n  linkedin:\n    '#type': url\n    '#title': Linkedin\n    '#required': true\nwork_experience:\n  '#type': webform_wizard_page\n  '#title': 'Work experience'\n  biography:\n    '#type': textarea\n    '#title': Biography\n    '#required': true\napplication_information:\n  '#type': webform_wizard_page\n  '#title': 'Application information'\n  cv:\n    '#type': webform_document_file\n    '#title': cv\n    '#required': true\n  cover_letter:\n    '#type': webform_document_file\n    '#title': 'cover letter'\n    '#required': true"
 css: ''
 javascript: ''
 settings:
