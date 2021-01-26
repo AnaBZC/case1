@@ -12,7 +12,7 @@ id: application_job_form
 title: 'Application job form'
 description: ''
 category: ''
-elements: null
+elements: "fullname:\n  '#type': textfield\n  '#title': Fullname\n  '#required': true\ntelephone:\n  '#type': tel\n  '#title': Telephone\n  '#required': true\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\nbiography:\n  '#type': textarea\n  '#title': Biography\n  '#required': true\naddress:\n  '#type': textfield\n  '#title': Address\n  '#required': true\ncv:\n  '#type': webform_document_file\n  '#title': cv\n  '#required': true\nlinkedin:\n  '#type': url\n  '#title': Linkedin\n  '#required': true\ncover_letter:\n  '#type': webform_document_file\n  '#title': 'cover letter'\n  '#required': true"
 css: ''
 javascript: ''
 settings:
