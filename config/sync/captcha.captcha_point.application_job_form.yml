@@ -1,0 +1,7 @@
+uuid: b9b791c4-9457-49f3-be38-ad4fadfcbc57
+langcode: en
+status: true
+dependencies: {  }
+formId: application_job_form
+captchaType: recaptcha/reCAPTCHA
+label: application_job_form
