@@ -1,0 +1,8 @@
+uuid: 2ff476aa-2119-4f8d-896f-0390f1c7f145
+langcode: en
+status: true
+dependencies: {  }
+name: jobs
+vid: jobs
+description: ''
+weight: 0
