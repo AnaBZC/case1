@@ -1,0 +1,22 @@
+uuid: a95d3efb-1adc-4dc1-bdbc-e6788cb78807
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: icecream_breadcrumbs
+theme: icecream
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

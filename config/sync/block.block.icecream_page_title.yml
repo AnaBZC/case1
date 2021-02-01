@@ -1,0 +1,20 @@
+uuid: ad9fd861-acd5-400b-99c9-76e3fddc0f67
+langcode: en
+status: true
+dependencies:
+  theme:
+    - icecream
+_core:
+  default_config_hash: MmM0Ecphc-NSAEZgCOTC7dmGMZ_hpbCka4hpYtih-Zo
+id: icecream_page_title
+theme: icecream
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
